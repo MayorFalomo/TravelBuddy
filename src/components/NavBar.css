@@ -1,0 +1,179 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 5px;
+    position: fixed;
+    top: 0;
+    z-index: 999999999999999999999999999999;
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+}
+.NavContainer{
+    z-index: 999999999999999999999999999;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.navFlex ul li{
+    color: black;
+    font-size: 18px;
+}
+
+li{
+    list-style: none;
+}
+.booking-btn{
+    background-color: orangered;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 3px;
+}
+.galleria{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+}
+ul li:hover{
+    color: orangered;
+    font-size: 20px;
+    transition: all 0.4s ease;
+}
+
+.navbar.active {
+    background-color:  #001219;
+    color: white;
+}
+
+.navbar.active .logo{
+    background-color: white;
+}
+.navbar.active ul li{
+    color: white;
+}
+
+.booking{
+    display: none;
+}
+.logo{
+    z-index: 9999999999;
+    padding: 10px 10px;
+}
+
+@media(max-width: 760px){
+    nav button{
+        display: none;
+    }
+    .hamBurgerMenu .bars{
+    display: flex;
+    height: 3px;
+    width: 30px;
+    margin: 3px;
+    border-radius: 10px;
+    background-color: #0e2431;
+    cursor: pointer;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        width: 100%;
+    }
+    .links.active{
+        padding-top: 100px;
+    }
+
+    .hamBurgerMenu{
+        display:block;
+        z-index: 99999999999;
+        transition: 0.4s ease;
+        opacity: 1;
+    }
+    .navFlex{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+    }
+    .hamBurgerMenu.active{
+        transform: rotate(180deg);
+        background-color: #fff;
+    }
+
+        .hamBurgerMenu.active #bars1 {
+        transition: transform 0.4s ease-in-out;
+        transform: rotate(45deg) translate(3px, 7px);
+    }
+
+    .hamBurgerMenu.active #bars2 {
+        transition: transform 0.2s ease-in-out;
+        opacity: 0;
+    }
+
+    .hamBurgerMenu.active #bars3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+        transform: rotate(-45deg) translate(-2px, 6px);
+    }
+
+        nav .links {
+        top: -50vw;
+        transition: 0.5s ease;
+        position: absolute;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+        nav .links.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        position: fixed;
+        right: 0;
+        top: 0px;
+        width: 100%;
+        background-color: #fff;
+        color: black;
+        height: 50%;
+        z-index: 999;
+        transition: all 0.4s ease;
+        transform: rotate(360deg);
+        font-size: 18px;
+    }
+
+    .hamburgerMenu.active {
+        z-index: 999999999999999999;
+        transition: all 0.4s ease;
+    }
+    .navbar.active .hamBurgerMenu:hover{
+        color:#fff;
+        background-color: #fff;
+    }
+
+    .navbar.active ul li{
+    color: black;
+    transition: all 0.4s ease;
+}
+.navbar.active .hamBurgerMenu.active span .bars{
+    background-color: white !important;
+}
+    .bookings{
+        display: none;
+    }
+
+}
+

@@ -1,0 +1,69 @@
+.map{
+    height: auto;
+    max-width: 95%;
+    margin: 50px auto;
+}
+.map img{
+    width: 100%;
+    height: auto;
+}
+.messages{
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px auto;
+    width: 85%;
+}
+
+.messages form input{
+    padding: 15px 20px;
+    outline: 0;
+}
+.messageFlex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.FormSection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+    padding: 10px;
+}
+.FormSection input{
+    max-width: 100%
+}
+
+.messageBtn{
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+textarea{
+    padding: 10px 20px;
+    width: 90%;
+}
+
+.FormSection p{
+    color: blue;
+}
+.house{
+    max-width: 100%;
+    height: auto;
+}
+.house img{
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+.flexHotel{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sectionImg{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.TopCard h2{
+    text-align: center;
+}
+.TopCard .Topic{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.TopCard{
+    margin-top: 40px;
+}
+.setDisplay{
+    display:flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.about{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.charges{
+    color: #DA1212;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 810px){
+    .Hotel-Card{
+        text-align: center;
+    }
+    .setDisplay{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,35 @@
+.testimonial-Container{
+    background-color: #1E328A;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 400px;
+    height: 250px;
+    min-height: 100%;
+    line-height: 18px;
+    text-align: center;
+    padding: 30px 20px;
+    margin: auto;
+}
+.mainCard-Container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+    overflow-x: hidden;
+    margin:0 auto;
+}
+
+.mainCard{
+    background-color:  #041562;
+    color: white;
+    margin-top: 40px;
+    padding:50px;
+}
+.said{
+    margin-bottom: 40px;
+}
+.starPicture{
+    max-width: 200px;
+    width: 100%;
+}

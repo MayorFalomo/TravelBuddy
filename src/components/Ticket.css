@@ -1,0 +1,17 @@
+.Ticket button{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.Ticket:hover{
+    color: #fff;
+    background-color: red;
+}
+
+.Ticket{
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+

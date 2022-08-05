@@ -1,0 +1,15 @@
+.btn.current{
+    display: block;
+}
+.current{
+    display: none;
+}
+#seeMoreBtn{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    margin: 40px auto;
+    border-radius: 3px;
+    background-color: orangered;
+    color: white;
+}

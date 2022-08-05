@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.video{
+    object-position: contain;
+    object-fit: contain;
+    min-width: 100vw;
+    /* width: 100vw; */
+    min-height: 80vh;
+}
+video{
+    min-height: 80vh;
+    min-width: 100vw;
+}
+
+.HeroContainer{
+    position: relative;
+    margin-bottom: 50px;
+    width: 100%;
+    object-fit: contain;
+}
+.Layer{
+    background-color: 	rgba(0, 0, 0, 0.5);
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 100;
+    bottom: 0;
+}
+
+.HeroText{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40%;
+    color: #fff;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 989898898;
+}
+
+.start{
+    margin-bottom: 30px;
+}
+.discoverBtn button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: orangered;
+}
+h1{
+    font-size: clamp(0.9rem, 2vw + 3rem, 5.2rem );
+    font-weight: 600;
+}
+
+.start{
+    
+}
+
+@media (max-width: 550px){
+    .HeroText{
+        /* display: none; */
+        /* font-size: 30px; */
+    }
+    .HeroText h2{
+        /* font-size: 30px; */
+    }
+}
