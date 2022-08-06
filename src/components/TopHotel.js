@@ -1,5 +1,5 @@
 import React from 'react'
-import "./TopHotel.css"
+import "./Tophotel.css"
 
 import imageryOne from "./imageOne.svg"
 import imageryTwo from "./imageTwo.svg"
@@ -7,7 +7,7 @@ import imageryThree from "./imageThree.svg"
 import twinkle from "./Star-rating.svg"
 
 
-const TopHotel = () => {
+const Tophotel = () => {
 
     const TopHotel = [
         {
@@ -57,4 +57,4 @@ const TopHotel = () => {
   )
 }
 
-export default TopHotel
+export default Tophotel

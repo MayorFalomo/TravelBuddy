@@ -1,14 +1,12 @@
 import React from 'react'
-import "./AboutUs.css"
-
 import Footer from '../components/Footer'
-import HeroSection from '../components/HeroSection'
+import HeroSection from '../components/Herosection'
 import { Locations } from '../components/Locations'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/Navbar'
 import Services from '../components/Services'
 import Slider from '../components/Slider'
 import Testimonial from '../components/Testimonial'
-import TopHotel from '../components/TopHotel'
+import TopHotel from '../components/Tophotel'
 
 
 

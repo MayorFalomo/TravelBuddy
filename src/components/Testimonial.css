@@ -8,6 +8,7 @@
     text-align: center;
     padding: 30px 20px;
     margin: auto;
+    position: relative;
 }
 .mainCard-Container{
     color: white;
@@ -18,6 +19,7 @@
     width: 100%;
     overflow-x: hidden;
     margin:0 auto;
+    position: relative;
 }
 
 .mainCard{
@@ -25,6 +27,7 @@
     color: white;
     margin-top: 40px;
     padding:50px;
+    position: relative;
 }
 .said{
     margin-bottom: 40px;

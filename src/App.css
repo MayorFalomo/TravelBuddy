@@ -7,8 +7,11 @@
     box-sizing: border-box;
     font-family: "inter";
     overflow-x: hidden;
+    position: relative;
 }
-
+body{
+    position: relative;
+}
 .copyright{
     padding: 20px;
     text-align: center;
@@ -23,6 +26,6 @@ button:hover{
     color: white;
 }
 img{
-    z-index: -10;
-    border: 1px solid red;
+    z-index: -1;
+    position: relative;
 }

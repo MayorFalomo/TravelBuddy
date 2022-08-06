@@ -11,7 +11,8 @@ nav{
     margin: auto;
 }
 .NavContainer{
-    z-index: 999999999999999999999999999;
+    z-index: 99999999999999999999999999999;
+    position: relative;
 }
 
 ul{

@@ -84,9 +84,6 @@ const Slider = () => {
     },
   ]
 
-  // const [current, setCurrent] = useState(0)
-
-  // newslidesr = slidesr[current]
 
   return (
     <Carousel breakPoints={breakPoints}>

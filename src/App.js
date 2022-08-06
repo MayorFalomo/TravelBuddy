@@ -1,11 +1,11 @@
 import './App.css';
 
 import Homepage from './Pages/Homepage';
-import AboutUs from './Pages/AboutUs';
+import AboutUs from './Pages/Aboutus';
 import Packages from './Pages/Packages';
 import Places from './Pages/Places';
 import Contact from './Pages/Contact';
-import ErrorPage from './Pages/ErrorPage';
+import ErrorPage from './Pages/Errorpage';
 
 
 import { Route, Routes } from 'react-router-dom';

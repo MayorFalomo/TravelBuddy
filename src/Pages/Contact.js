@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Contact.css"
 import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/Navbar'
 import RectangularImg from './HeroImage.svg'
 import Office from "./office.svg"
 import Phone from './phone.svg'

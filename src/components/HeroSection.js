@@ -1,9 +1,9 @@
 import React from 'react'
-import "./HeroSection.css"
+import "./Herosection.css"
 import Booking from './Booking'
 import Ripples from "react-ripples"
 
-const HeroSection = () => {
+const Herosection = () => {
 
   return (
     <div className='HeroContainer'>
@@ -26,4 +26,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default Herosection

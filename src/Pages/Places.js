@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Places.css"
 import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/Navbar'
 import RectangularImg from './HeroImage.svg'
 
 import PictureOne from "./image1.svg"

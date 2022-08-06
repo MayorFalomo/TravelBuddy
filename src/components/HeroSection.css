@@ -7,12 +7,14 @@
     object-position: contain;
     object-fit: contain;
     min-width: 100vw;
-    /* width: 100vw; */
     min-height: 80vh;
+    position: relative;
+    z-index: 1;
 }
 video{
     min-height: 80vh;
     min-width: 100vw;
+    position: relative;
 }
 
 .HeroContainer{
@@ -44,7 +46,7 @@ video{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    z-index: 989898898;
+    z-index: 99999998;
 }
 
 .start{
@@ -60,18 +62,4 @@ video{
 h1{
     font-size: clamp(0.9rem, 2vw + 3rem, 5.2rem );
     font-weight: 600;
-}
-
-.start{
-    
-}
-
-@media (max-width: 550px){
-    .HeroText{
-        /* display: none; */
-        /* font-size: 30px; */
-    }
-    .HeroText h2{
-        /* font-size: 30px; */
-    }
 }
