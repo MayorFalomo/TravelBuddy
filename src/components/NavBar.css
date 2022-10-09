@@ -149,7 +149,7 @@ ul li:hover{
         width: 100%;
         background-color: #fff;
         color: black;
-        height: 50%;
+        height: 65%;
         z-index: 999;
         transition: all 0.4s ease;
         transform: rotate(360deg);
